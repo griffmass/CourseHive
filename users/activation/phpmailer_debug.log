@@ -1,0 +1,312 @@
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-724de457d42sm683000b3a.10 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [119.93.218.247]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [119.93.218.247]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<shamizen43@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-724de457d42sm683000b3a.10 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<gokieshanvy@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-724de457d42sm683000b3a.10 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-724de457d42sm683000b3a.10 - gsmtp
+
+CLIENT -> SERVER: Date: Fri, 22 Nov 2024 06:06:43 +0100
+
+CLIENT -> SERVER: To: gokieshanvy@gmail.com
+
+CLIENT -> SERVER: From: CourseHive <shamizen43@gmail.com>
+
+CLIENT -> SERVER: Subject: CourseHive Email Verification - Resend OTP
+
+CLIENT -> SERVER: Message-ID: <0FYgMVkvvLyFlE9BJAJtqzTK3xbi7QVfLddk2aZ30@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_0FYgMVkvvLyFlE9BJAJtqzTK3xbi7QVfLddk2aZ30"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_0FYgMVkvvLyFlE9BJAJtqzTK3xbi7QVfLddk2aZ30
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP for email verification is: 341648. It expires in 5 minutes.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_0FYgMVkvvLyFlE9BJAJtqzTK3xbi7QVfLddk2aZ30
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP for email verification is: 341648. It expires in 5 minutes.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_0FYgMVkvvLyFlE9BJAJtqzTK3xbi7QVfLddk2aZ30--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1732252006 d2e1a72fcca58-724de457d42sm683000b3a.10 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-724de457d42sm683000b3a.10 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-724de456488sm1578068b3a.9 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.201.177.39]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.201.177.39]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<shamizen43@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-724de456488sm1578068b3a.9 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<cdm.ics.internship@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-724de456488sm1578068b3a.9 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-724de456488sm1578068b3a.9 - gsmtp
+
+CLIENT -> SERVER: Date: Fri, 22 Nov 2024 14:22:26 +0100
+
+CLIENT -> SERVER: To: cdm.ics.internship@gmail.com
+
+CLIENT -> SERVER: From: CourseHive <shamizen43@gmail.com>
+
+CLIENT -> SERVER: Subject: CourseHive Email Verification - Resend OTP
+
+CLIENT -> SERVER: Message-ID: <1lNWrz3Lnl3cgtP0gWmgrW5W0nRTWOqxGScQYasg@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_1lNWrz3Lnl3cgtP0gWmgrW5W0nRTWOqxGScQYasg"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_1lNWrz3Lnl3cgtP0gWmgrW5W0nRTWOqxGScQYasg
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP for email verification is: 230536. It expires in 5 minutes.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_1lNWrz3Lnl3cgtP0gWmgrW5W0nRTWOqxGScQYasg
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP for email verification is: 230536. It expires in 5 minutes.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_1lNWrz3Lnl3cgtP0gWmgrW5W0nRTWOqxGScQYasg--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1732281751 d2e1a72fcca58-724de456488sm1578068b3a.9 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-724de456488sm1578068b3a.9 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2129dc15828sm15916935ad.209 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.201.177.39]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [112.201.177.39]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<shamizen43@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-2129dc15828sm15916935ad.209 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<iceferg28@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-2129dc15828sm15916935ad.209 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-2129dc15828sm15916935ad.209 - gsmtp
+
+CLIENT -> SERVER: Date: Fri, 22 Nov 2024 15:05:22 +0100
+
+CLIENT -> SERVER: To: iceferg28@gmail.com
+
+CLIENT -> SERVER: From: CourseHive <shamizen43@gmail.com>
+
+CLIENT -> SERVER: Subject: CourseHive Email Verification - Resend OTP
+
+CLIENT -> SERVER: Message-ID: <VzXc9rhirXixDPJuelHEWpycpAsRNzlXQkNT8a0lHM@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_VzXc9rhirXixDPJuelHEWpycpAsRNzlXQkNT8a0lHM"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_VzXc9rhirXixDPJuelHEWpycpAsRNzlXQkNT8a0lHM
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP for email verification is: 989364. It expires in 2 minutes.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_VzXc9rhirXixDPJuelHEWpycpAsRNzlXQkNT8a0lHM
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP for email verification is: 989364. It expires in 2 minutes.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_VzXc9rhirXixDPJuelHEWpycpAsRNzlXQkNT8a0lHM--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1732284326 d9443c01a7336-2129dc15828sm15916935ad.209 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2129dc15828sm15916935ad.209 - gsmtp
+
