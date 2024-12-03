@@ -28,6 +28,9 @@ $fetch = $userCollection->findOne(['email' => $userEmail]);
     <link rel="stylesheet" href="../../styles/profile.css">
 </head>
 <body>
+
+ 
+
     <div class="container">
         <h2>Profile</h2>
         

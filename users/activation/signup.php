@@ -71,6 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['signup'])) {
 
         if ($sendOtpResult) {
             header("Location: verify-otp.php?email=$email&expires_at=$expirationTime");
+            $_SESSION['username'] = $username;
             exit();
         } else {
             $error = "Error sending OTP. Please try again.";

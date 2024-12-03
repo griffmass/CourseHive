@@ -2,21 +2,20 @@
 session_start();
 require_once '../vendor/autoload.php';
 
-// Initialize MongoDB connection
 $databaseConnection = new MongoDB\Client;
 $connection = $databaseConnection->quickstart;
 $userCollection = $connection->users;
 
-// Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
     $email = $_POST['email'];
     $password = sha1($_POST['password']);
 
-    // Query MongoDB for user credentials with correct field names
     $fetch = $userCollection->findOne(["email" => $email, "password" => $password]);
 
     if ($fetch) {
         $_SESSION['email'] = $fetch['email'];
+        $_SESSION['username'] = $fetch['username'];
+        $_SESSION['user'] = $fetch['username'];
         $_SESSION['logged_in'] = true;
         header('Location: account/dashboard.php');
         exit();
@@ -25,7 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
     }
 }
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
